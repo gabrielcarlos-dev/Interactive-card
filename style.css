@@ -257,7 +257,7 @@ form button {
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
     .container{
         flex-direction: column;
     }
@@ -265,6 +265,7 @@ form button {
     .front-card, .front-card img, .back-card, .back-card img {
         width: 280px;
     }
+
 
     .left-section {
         width: 100%;
