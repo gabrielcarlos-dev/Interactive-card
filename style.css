@@ -239,19 +239,19 @@ form button {
 }
 
 @media screen and (max-width:1023px) {
-    .front-card, .front-card img, .back-card, .back-card img {
+    .front_card .card_container img,.front_card,.back_card img,.back_card{
         width: 300px;
     }
 
-    .card-container, .card-logo {
+    .card_logo{
         width: 50px;
     }
 
-    #number {
+    #number{
         font-size: 1.1rem;
     }
 
-    #cvc {
+    #cvc{
         top: 42%;
         right: 12%;
     }
@@ -264,6 +264,10 @@ form button {
 
     .front-card, .front-card img, .back-card, .back-card img {
         width: 280px;
+    }
+
+    .card_logo{
+        width: 50px;
     }
 
     .left-section {
